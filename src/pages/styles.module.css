@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar{
+    width: 30%;
+    max-width: 240px;
+    min-width: 240px;
+    background-color: #3f2b3e;
+    color: #ccccccc4;
+    height: 100%;
+    position: fixed;
+}
+.sideBar h1{
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px 0 0 15px;
+    margin-bottom: 0;
+}
+
+.sideBar input{
+    margin: 10px 0 20px 11px;
+    background-color: #2c142c;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 17px;
+}
+.sideBar p{
+    margin: 28px 0 6px 15px;
+}
+.sideBar p:hover{
+    color: #ffffffc4;
+}
+.sideBar button{
+    width: 100%;
+    padding-left: 20px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    color: #ccccccc4;
+    text-align: left;
+}
+.sideBar button:hover{
+    background-color: #332633;
+}
+.sideBar button:focus{
+    background-color: #4a8b81;
+    color: #ffffffb9;
+}
+.title p{
+    margin: 7px 0 0 23px;
+    padding-bottom: 5px;
+}
+.title:hover{
+    background-color: #332633;
+    color: #ffffff;
+}
+
+/* Main //////////////////////////////////////////////////////////////////////////*/
+.main{
+    width:30%;
+    float: right;
+    height: 200;
+}
+.main input{
+    width: 38%;
+    position: absolute;
+    bottom: 5%;
+    right: 26px;
+    border: 2px gray solid;
+    border-radius: 5px;
+    padding: 0.3% 1%;
+}
+.main .messages{
+    
+    width: 30%;
+    position: absolute;
+    bottom: 11%;
+    right: 26px;
+    min-width: 500px;
+}
